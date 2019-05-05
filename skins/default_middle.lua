@@ -1,18 +1,19 @@
-
-
 local skinData = {
 	-- names
-	skinName = "default_middle",
-	ytdName = "default",
+	skinName = 'default_middle',
+	ytdName = 'default',
 	-- texture dictionary informations:
 	-- night textures are supposed to look like this:
-	-- "needle", "tachometer", "speedometer", "fuelgauge"
+	-- 'needle', 'tachometer', 'speedometer', 'fuelgauge'
 	-- daytime textures this:
-	-- "needle_day", "tachometer_day", "speedometer_day", "fuelgauge_day"
+	-- 'needle_day', 'tachometer_day', 'speedometer_day', 'fuelgauge_day'
 	-- these names are hardcoded
-centerCoords = {0.45,0.85},
+
+	-- where the speedo gets centered, values below are OFFSETS from this.
+	centerCoords = {0.45,0.85},
+
 	-- icon locations
-											-- these are xy,width,height
+	-- these are xy,width,height
 	lightsLoc = {0.010,0.092,0.018,0.02},
 	blinkerLoc = {0.105,0.034,0.022,0.03},
 	fuelLoc = {0.105,0.090,0.012,0.025},
@@ -32,7 +33,7 @@ centerCoords = {0.45,0.85},
 	RotMult = 2.036936,
 	RotStep = 2.32833,
 
-	-- rpm scale, defines how "far" the rpm gauge goes before hitting redline
+	-- rpm scale, defines how 'far' the rpm gauge goes before hitting redline
 	rpmScale = 250,
 	rpmScaleDecrease = 30, -- how much we want to decrease the rpm end result, this gives lower idle
 
